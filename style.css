@@ -1,0 +1,35 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#E1E1E1 ;
+    height: 100vh;
+    
+}
+
+.container .key
+{
+    background-color: #EEEEEE;
+    padding: 1rem 2rem;
+    font-size: larger;
+    border: 2px solid #999;
+    box-shadow: 1px 1px 3px #aaaaaa;
+    margin: 0.5rem;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    text-align: center;
+    
+}
